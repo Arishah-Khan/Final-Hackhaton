@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Black.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color {
+    background: linear-gradient(90deg, #F7F0AC 0%, #ACF7F0 50%, #F0ACF7 100%);
+
+}
+
+.nav {
+    font-family: "Roboto";
+    color: #000000;
+}
+
+.custom-submit {
+    color: #007AFF;
+    text-align: center;
+    font-family: "Roboto";
+
+    padding: 5px 26px 5px 26px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #0052D4;
+}
+
+.carona {
+    color: #0A84FF;
+    font-family: "Roboto";
+}
+
+.official {
+    font-family: "Roboto";
+    color: #000000;
+}
+
+.para {
+    color: #696C73;
+    font-family: "Roboto";
+
+}
+
+.learn {
+    color: #FFFFFF;
+    font-family: "Roboto";
+    padding: 5px, 26px, 5px, 26px;
+    border-radius: 10px;
+    background-color: #0A84FF;
+    border: none;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    
+
+
+}
+.take{
+    color: #000000;
+    font-family: "Roboto";
+    Padding: 5px, 26px, 5px, 26px;
+    border-radius: 10px;
+    width: 220px;
+    height: 60px;
+    border: 2px solid #0A84FF;
+
+}
+.logo{
+    font-weight: bold;
+}
+@media screen and (max-width:480px) {
+    .take{
+        padding: 0px;
+    }
+    .learn{
+        padding: 0px;
+    }
+
+    
+}
