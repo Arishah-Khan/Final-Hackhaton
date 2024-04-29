@@ -72,12 +72,14 @@
 .logo{
     font-weight: bold;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
     .take{
         padding: 0px;
+        height: 50px;
     }
     .learn{
         padding: 0px;
+        height: 50px;
     }
 
     
